@@ -8,10 +8,12 @@ import { MaterialModule } from './material/material.module';
 
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FormDataComponent } from './form-data/form-data.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormDataComponent
   ],
   imports: [
     BrowserModule,
