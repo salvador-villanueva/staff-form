@@ -50,7 +50,7 @@ export class AppComponent {
       department: inputs.department,
       managerName: inputs.managerName,
       managerEmail: inputs.managerEmail,
-  };
+    };
     this.dataSource.push(obj);
     this.dataSource = [...this.dataSource];
     this.staffForm.reset();
@@ -66,9 +66,9 @@ export interface Element {
   managerEmail: string;
 }
 
-var formDate = new Date();
+// var formDate = new Date();
 const elementData: Element[] = [
-  {formDate: formDate, jobTitle: '', department: '', managerName: '', managerEmail: '',},
+  // {formDate: formDate, jobTitle: '', department: '', managerName: '', managerEmail: '',},
 ];
 
 

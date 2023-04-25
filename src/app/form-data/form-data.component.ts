@@ -64,7 +64,7 @@ export interface Element {
   managerEmail: string;
 }
 
-var formDate = new Date();
+// var formDate = new Date();
 const elementData: Element[] = [
-  {formDate: formDate, jobTitle: '', department: '', managerName: '', managerEmail: '',},
+  // {formDate: formDate, jobTitle: '', department: '', managerName: '', managerEmail: '',},
 ];
