@@ -33,7 +33,7 @@ export class FormDataComponent {
     this.staffForm = this.formBuilder.group({
 
       formDate: [new Date(), Validators.required],
-      jobTitle: ['', Validators.required],
+      jobTitle: ['', Validators.required, Validators.minLength(1)],
       department: ['', Validators.required],
       managerName: ['', Validators.required],
       managerEmail: ['', Validators.required],
